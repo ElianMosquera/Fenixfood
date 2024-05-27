@@ -1,0 +1,67 @@
+.waiter-panel {
+    padding: 20px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input, select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  .current-order {
+    margin-top: 20px;
+  }
+  
+  .current-order ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .current-order li {
+    padding: 5px 0;
+  }
+  

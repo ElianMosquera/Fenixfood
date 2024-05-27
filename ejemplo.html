@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FenixFood</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f8f8f8;
+        }
+        .container {
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 50px;
+            color: #333;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .button {
+            padding: 20px 40px;
+            font-size: 18px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s, color 0.3s;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .admin {
+            background-color: #007BFF;
+            color: white;
+        }
+        .admin:hover {
+            background-color: #0056b3;
+        }
+        .kitchen {
+            background-color: #28a745;
+            color: white;
+        }
+        .kitchen:hover {
+            background-color: #1e7e34;
+        }
+        .waiter {
+            background-color: #ffc107;
+            color: white;
+        }
+        .waiter:hover {
+            background-color: #e0a800;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>FenixFood</h1>
+        <div class="button-container">
+            <button class="button admin">Administrador</button>
+            <button class="button kitchen">Cocina</button>
+            <button class="button waiter">Mesero</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,38 +1,61 @@
-.App {
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+.container {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+  margin-bottom: 50px;
+  color: #333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.button-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 20px;
+}
+
+.button {
+  padding: 20px 40px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.admin {
+  background-color: #007BFF;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.admin:hover {
+  background-color: #0056b3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.kitchen {
+  background-color: #28a745;
+  color: white;
+}
+
+.kitchen:hover {
+  background-color: #1e7e34;
+}
+
+.waiter {
+  background-color: #ffc107;
+  color: white;
+}
+
+.waiter:hover {
+  background-color: #e0a800;
 }
